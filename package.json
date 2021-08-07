@@ -1,0 +1,11 @@
+{
+  "name": "symplified",
+  "version": "0.0.1-alpha",
+  "scripts": {
+  },
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
