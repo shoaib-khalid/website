@@ -1,11 +1,8 @@
 {
   "name": "symplified-web",
   "version": "0.0.5-alpha",
-  "scripts": {
-  },
+  "scripts": {},
   "private": true,
-  "dependencies": {
-  },
-  "devDependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
