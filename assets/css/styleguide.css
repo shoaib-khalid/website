@@ -184,6 +184,13 @@
   font-style: normal;
   font-weight: 500;
 }
+.barlow-medium-big-stone-18px {
+  color: var(--big-stone);
+  font-family: var(--font-family-barlow);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
 .barlow-normal-big-stone-25px {
   color: var(--big-stone);
   font-family: var(--font-family-barlow);

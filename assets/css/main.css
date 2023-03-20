@@ -137,7 +137,7 @@
 .path-246-vvf3gT {align-self:center;flex-shrink:1;height:26px;margin-left:4px;margin-top:5.93px;position:relative;width:137px}
 
 /* ==========================MOBILE:Main Infographic========================== */
-.flex-col-RH0WJ5 {align-content:center;box-sizing:border-box;display:flex;flex-direction:column;flex-shrink:1;justify-content:center}
+.flex-col-RH0WJ5 {align-content:center;box-sizing:border-box;display:flex;flex-direction:column;flex-shrink:1;justify-content:center;}
 .keep-it-simple-with-symplified-ms4HFY {flex-shrink:1;line-height:40px;margin-top:-6.5px;text-align:center}
 .group-502-RH0WJ5 {margin:2em auto;max-width:1110px}
 .group-502-C61RwL {padding-top:1em;align-items:flex-start;display:grid;grid-gap:10px;grid-template-columns:repeat(auto-fill,100%);max-width:1110px;justify-content:center;margin:1em}
@@ -440,7 +440,7 @@
 .container {height:87px}
 .overlap-group-login {display:none}
 .main-container {margin-top:87px}
-.solutions-child {/*solutions child*/flex:1 0 21%}
+.solutions-child {/*solutions child*/flex:1 0 30%}
 .pricing-parent {align-items:flex-start;display:grid;overflow:hidden;grid-template-columns:22% repeat(3, 26%);grid-auto-rows:1fr;grid-row-gap:5px;max-width:1140px;margin:0 auto}
 .pricing-child.plan-names {margin:0;padding:0 1em}
 .pricing-child.pricing-plan {margin:0;padding:0 1em}
@@ -495,3 +495,99 @@
 
 /* ==========================================================================Print styles========================================================================== */ 
 @media print {*,*:before,*:after {background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a,a:visited {text-decoration:underline}a[href]:after {content:" (" attr(href) ")"}abbr[title]:after {content:" (" attr(title) ")"}a[href^="#"]:after,a[href^="javascript:"]:after {content:""}pre,blockquote {border:1px solid #999;page-break-inside:avoid}thead {display:table-header-group}tr,img {page-break-inside:avoid}img {max-width:100% !important}p,h2,h3 {orphans:3;widows:3}h2,h3 {page-break-after:avoid}}
+
+/* ==========================================================================WHO NEEDS US========================================================================== */ 
+.who-needs-us-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+
+    border: 2px solid #0270BF;
+    border-radius: 0.75rem;
+    width: 340px;
+    max-height: 430px;
+    min-height: 430px;
+}
+.who-needs-us-box-image {
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+    height: 255px;
+    object-fit: cover;
+    
+}
+.who-needs-us-box-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: center;
+    align-content: normal;
+    margin-top: 0.75rem;
+    gap: 0.625rem;
+}
+
+/* ==========================================================================SYMPLIFIED PROVIDES========================================================================== */ 
+.symplified-provides-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+
+    width: 320px;
+    max-height: 320px;
+}
+.symplified-provides-image {
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+    height: 255px;
+    object-fit: contain;
+    border: 1px solid #0270BF;
+    border-radius: 0.75rem;
+    padding: 1rem;
+}
+
+.symplified-provides-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: center;
+    align-content: normal;
+    margin-top: 0.75rem;
+    gap: 0.625rem;
+}
+.symplified-provides-parent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: center;
+    align-content: normal;
+}
+/* Wide screen */
+@media only screen and (min-width:480px) {
+    .symplified-provides-parent {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: normal;
+        align-items: center;
+        align-content: normal;
+    }
+    .symplified-provides-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: normal;
+        align-items: normal;
+        align-content: normal;
+    
+        width: 320px;
+        height: 320px;
+    }
+}
