@@ -62,6 +62,7 @@
 .span1-k5pv7q {font-size:var(--font-size-xl);font-style:normal}
 .header-imagemaster-4eduM0 {right:0;bottom:0;object-fit:cover;position:absolute;width:100%;min-width:250px;max-width:348px;padding-left:10px}
 .group-vid-C61RwL video {width:100%;height:auto;max-width:1000px;display:flex;margin:0 auto}
+.group-vid-C61RwL iframe {width:100%;height:190px;max-width:1000px;display:flex;margin:0 auto}
 .group-494-C61RwL {align-items:center;box-sizing:border-box;display:flex;flex-direction:column;flex-shrink:1;height:auto;justify-content:flex-start;/*min-height:150px;*/position:relative;padding-top:4em;padding-bottom:4em}
 .group-494-logo {width:90px;padding-right:.3em}
 .symplified-make-service-simple-bBtQ63 {height:auto;letter-spacing:0.00px;line-height:40px;margin-top:-1px;text-align:center}
@@ -312,6 +313,7 @@
 
 @media only screen and (min-width:480px) {
 /* ============WIDE:Main============ */
+.group-vid-C61RwL iframe {width:100%;height:562px;max-width:1000px;display:flex;margin:0 auto}
 .title-4eduM0 {top:.5em;width:60%}
 .header-imagemaster-4eduM0 {width:30%;height:20em}
 .header-4eduM0.header-solution-ecommerce, .header-4eduM0.header-solution-services, .header-4eduM0.header-pricing-f-b,
